@@ -1,0 +1,21 @@
+.masonryLayout {
+  display: grid;
+  padding: 20px;
+  width: 100%;
+  align-items: start;
+}
+
+.masonryColumn {
+  display: grid;
+  gap: 20px;
+  grid-auto-rows: min-content;
+}
+
+.masonryItem {
+  break-inside: avoid;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}

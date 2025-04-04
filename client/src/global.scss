@@ -1,0 +1,27 @@
+:root {
+  font-size: 16px;
+  --color-light: #f8f9fa;
+  --color-dark: #212529;
+  --color-gray: #00000040;
+  --color-blue: #4361ee;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

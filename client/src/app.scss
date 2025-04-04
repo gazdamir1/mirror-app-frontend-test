@@ -1,0 +1,17 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+
+  .content {
+    flex: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+}
